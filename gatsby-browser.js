@@ -6,7 +6,6 @@
 
 const React = require("react")
 const { ParallaxProvider } = require("react-scroll-parallax")
-const Layout = require("./src/components/layout").default
 
 exports.wrapPageElement = ({ element, props }) => {
   return <ParallaxProvider>{element}</ParallaxProvider>
